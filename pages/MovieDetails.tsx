@@ -3,7 +3,7 @@ import { ArrowLeft, Heart, Plus, Star, Clock, Calendar, MapPin, User, Brain } fr
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
 import { Card, CardContent } from "../components/ui/card";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { MovieCard } from "../components/MovieCard";
 import { ActorCard } from "../components/ActorCard";
 import { mockMovies, mockUserData, Movie } from "../data/mockData";

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { SearchBar } from "../components/SearchBar";
 import { FilterSidebar } from "../components/FilterSidebar";
 import { MovieCard } from "../components/MovieCard";

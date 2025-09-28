@@ -1,10 +1,11 @@
+import React from 'react';
 import { useState } from "react";
 import { Heart, Plus, Star, Calendar, Clock, TrendingUp, Users, Camera, Zap } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Progress } from "./ui/progress";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Movie } from "../data/mockData";
 
 interface RecommendationReason {

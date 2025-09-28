@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Checkbox } from "./ui/checkbox";
 import { Slider } from "./ui/slider";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { genres, countries } from "../data/mockData";
 
 interface FilterSidebarProps {

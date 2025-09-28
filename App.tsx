@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/Navigation";
 import { Home } from "./pages/Home";
@@ -6,7 +7,7 @@ import { Profile } from "./pages/Profile";
 
 import { Recommendations } from "./pages/Recommendations";
 import { mockUserData } from "./data/mockData";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { initializeServices, defaultConfig } from "./services/serviceFactory";
 
 type Page = "recommendations" | "search" | "movie" | "profile";

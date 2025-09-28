@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Heart, Clock, History, User } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
 import { Card, CardContent } from "../components/ui/card";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { MovieCard } from "../components/MovieCard";
 import { mockMovies, mockUserData } from "../data/mockData";
 

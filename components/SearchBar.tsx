@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Search, X } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { mockMovies } from "../data/mockData";
 
 interface SearchBarProps {

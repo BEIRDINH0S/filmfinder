@@ -1,5 +1,6 @@
+import React from 'react';
 import { Search, User, Film } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 interface NavigationProps {
   currentPage: string;
