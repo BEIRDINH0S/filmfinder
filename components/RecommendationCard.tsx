@@ -1,4 +1,5 @@
 import React from 'react';
+import React from 'react';
 import { useState } from "react";
 import { Heart, Plus, Star, Calendar, Clock, TrendingUp, Users, Camera, Zap } from "lucide-react";
 import { Button } from "./ui/button";

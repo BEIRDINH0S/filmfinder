@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Heart, Plus, Star, Clock, Calendar } from "lucide-react";
 import { Button } from "./ui/button";

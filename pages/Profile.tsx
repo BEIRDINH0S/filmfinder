@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Heart, Clock, History, User } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";

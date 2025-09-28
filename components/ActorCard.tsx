@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Card, CardContent } from "./ui/card";
 import { motion } from "framer-motion";
